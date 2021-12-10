@@ -7,5 +7,14 @@
       "rates": [0.5, 0.5, 0, 0],
       "operators": [["Saga", "Skadi"], ["Manticore", "Whisperain", "Firewatch"], [], []]
     }
+  },
+  "revolution-symphony": {
+    "type": 0,
+    "name": "Revolution Symphony",
+    "rate_up": {
+      "limited_comebacks": [],
+      "rates": [0.5, 0.5, 0, 0],
+      "operators": [["Carnelian"], ["Kirara"], ["Indigo"], []]
+    }
   }
 }
