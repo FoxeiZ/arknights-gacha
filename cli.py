@@ -1,4 +1,5 @@
 import argparse
+import pprint
 
 from core import gacha
 
@@ -20,7 +21,7 @@ try:
     result = gacha.roll(banner_data, count)
 
     for k in result:
-        print(k, end="\n")
+        pprint.pprint(k)
     print(gacha.analyze(result))
 except Exception as e:
     print(e)
